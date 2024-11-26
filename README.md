@@ -5,9 +5,17 @@
 > EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readable and they work nicely with version control systems.
 > https://editorconfig.org/
 
-There are multiple C#/.NET code style rules that can be expressed in an `.editorconfig` file
+There are multiple C#/.NET code style rules that can be expressed in an `.editorconfig` file (see [this documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options#example-editorconfig-file)), such as indentation, parenthesis style, initializer style, namespace style, etc. etc.
+
+What I want is a tool for a team to collaboratively 
  
 ## Features
+
+## Tech stack
+- .NET 9/10
+- React?
+- Docker
+- Azure?
 
 ## Other examples
 The idea is very similar to this project that I found:
@@ -25,3 +33,4 @@ but (a) the site is pretty basic and ugly, (b) it doesn't do everything I want i
 - https://github.com/dotnet/razor/blob/main/.editorconfig
 - https://github.com/dotnet/roslyn/blob/main/.editorconfig
 - https://gist.github.com/RealDotNetDave/dbae4d97358ba4515dd52e5b8ca87671
+- https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options#example-editorconfig-file
