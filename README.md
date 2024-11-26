@@ -23,10 +23,10 @@ What I want is a web-based tool for a team to collaboratively and visually explo
   - Any category you don't pick should use the default options for those rules
 
 ## Tech stack
-- .NET 9/10
-- React?
-- Docker
-- Azure?
+- Backend: .NET 9/10
+- Frontend: React
+- Infrastructure: Docker
+- Hosting: Azure?
 
 ## Other examples
 The idea is very similar to this project that I found:
