@@ -33,7 +33,7 @@ The idea is very similar to this project that I found:
 - https://github.com/KristofferStrube/EditorConfigWizard
 - https://kristofferstrube.github.io/EditorConfigWizard/wizard
 
-but (a) the site is pretty basic and ugly, (b) it doesn't do everything I want it to do, and (c) the project seems largey abandoned since march 2023.
+but (a) the site is pretty basic and ugly, (b) it doesn't do everything I want it to do, and (c) the project seems largely abandoned since march 2023.
 
 ## Links
 - https://editorconfig.org/
