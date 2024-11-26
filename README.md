@@ -1,2 +1,2 @@
-# csharp-editorconfig-generator
-A side project idea.
+# A visual C# EditorConfig generator
+
