@@ -7,9 +7,20 @@
 
 There are multiple C#/.NET code style rules that can be expressed in an `.editorconfig` file (see [this documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options#example-editorconfig-file)), such as indentation, parenthesis style, initializer style, namespace style, etc. etc.
 
-What I want is a tool for a team to collaboratively 
+What I want is a web-based tool for a team to collaboratively and visually explore these different style options, with clear examples, and then pick which one they prefer. Once you are done you get a generated `.editorconfig` file that represents the choices you've made that you can import directly into your project/repo and start using.
  
 ## Features
+- Web-based tool
+- Potentially a "Tinder-like" UI where you swipe left or right on different rules
+- Simple and minimal UI, playful
+- You should be able to pick which different rule categories you are intested in before you begin, so as to not overwhelm the user
+  - For example:
+    - [ ] *Naming rules*
+    - [ ] *Naming styles*
+    - [ ] *New line preferences*
+    - [ ] Etc.
+    - [ ] Or *All rules*
+  - Any category you don't pick should use the default options for those rules
 
 ## Tech stack
 - .NET 9/10
